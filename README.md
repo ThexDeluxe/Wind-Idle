@@ -4,9 +4,9 @@ Ein Idle-Spiel über Windenergie: Du startest mit einer Handkurbel am Gartenzaun
 
 Nebenbei erklärt das Spiel, wie Windkraftanlagen und Stromnetz funktionieren – über die Mechaniken selbst, nicht über Texttafeln.
 
-## Spielen
+Spielen im Browser: https://thexdeluxe.github.io/Wind-Idle/
 
-Online: **https://thexdeluxe.github.io/Wind-Idle/** (wird bei jedem Push auf `main` automatisch neu gebaut).
+## Spielen
 
 Lokal:
 
@@ -45,3 +45,8 @@ npm run balance -- --hours 8 --seed 42   # Balancing-Bot spielt headless und mis
 | `tests/` | Unit-Tests |
 
 Konkrete Zahlen und Formeln: [DESIGN.md](DESIGN.md).
+
+## Veröffentlichung
+
+GitHub Actions (`.github/workflows/deploy.yml`) baut bei jedem Push auf `main` und veröffentlicht `dist/` auf dem Branch `gh-pages`.
+Adresse: https://thexdeluxe.github.io/Wind-Idle/
