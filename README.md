@@ -6,6 +6,10 @@ Nebenbei erkl√§rt das Spiel, wie Windkraftanlagen und Stromnetz funktionieren ‚Ä
 
 ## Spielen
 
+Online: **https://thexdeluxe.github.io/Wind-Idle/** (wird bei jedem Push auf `main` automatisch neu gebaut).
+
+Lokal:
+
 ```bash
 npm install
 npm run dev      # Entwicklungsserver, http://localhost:5173
